@@ -14,7 +14,7 @@ const toggleDark = useToggle(isDark)
                 <button class="flex rounded-md bg-light_blue_button dark:bg-dark_blue_button"> <p class="mx-1">TOPICS</p> </button>
             </div>
 
-            <div class="flex justify-center">{{ isDark }}</div>
+            <div class="hidden justify-center">{{ isDark }}</div>
 
             <div class="flex w-full items-center justify-end">
                 <i class="fa-regular fa-user pr-4 text-xl"></i>
