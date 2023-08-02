@@ -15,11 +15,12 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT : "0rem",
-        sm : "2rem",
-        md : "4rem",
-        lg : "7rem",
-        xl : "8rem",
-        '2xl' : "9rem",
+        sm : "1rem",
+        md : "2rem",
+        lg : "3rem",
+        xl : "4rem",
+        '2xl' : "6rem",
+        '3xl' : "9rem",
       },
     },
     screens: {
@@ -28,7 +29,7 @@ module.exports = {
       lg: "900px",
       xl: "1100px",
       '2xl' : "1336px",
-
+      '3xl' : "1600px"
     }
   },
   
