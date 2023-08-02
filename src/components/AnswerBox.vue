@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="flex p-3 justify-end">
-      <button class="bg-[#9CED75] rounded"><p class="mx-1.5 text-2xl text-white">Create</p></button>
+      <button class="bg-[#9CED75] rounded"><p class="mx-1.5 text-2xl text-white">Reply</p></button>
     </div>
 
   </div>
