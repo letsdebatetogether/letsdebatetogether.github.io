@@ -11,7 +11,7 @@ import Label from "@/components/Label.vue";
         <Label/>
       </div>
       <div class="flex w-full  pt-1">
-        <hr class="h-[2px] bg-[#9D9D9D] w-full">
+        <hr class="h-[2px] bg-black_font dark:bg-white_font w-full">
       </div>
       <h2>Participants:</h2>
       <h3 class="text-sm pl-1">Boby</h3>

@@ -10,8 +10,8 @@ import FootBar from "@/components/FootBar.vue";
 
 <template>
   <HotBar/>
-  <main class="flex container w-full bg-[#F7F8FF]">
-    <div class="flex flex-col min-h-screen bg-[#E5E6F1] w-full px-2">
+  <main class="flex container w-full bg-[#F7F8FF] dark:bg-[#1e1e1e]">
+    <div class="flex flex-col min-h-screen bg-[#E5E6F1] dark:bg-[#242526] w-full px-2">
       <ToolBox/>
       <div class="flex w-full flex-row">
         <div class="flex flex-col gap-3 pb-3">

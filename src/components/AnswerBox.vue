@@ -4,12 +4,12 @@
 
 <template>
   <div class="flex flex-col p-2 pb-5">
-    <div class="flex flex-wrap bg-[#DAE2F2] w-full">
+    <div class="flex flex-wrap bg-[#DAE2F2] dark:bg-[#282E38] w-full">
       <div class="flex pl-3 pt-1 text-sm">
         <p>Answer</p>
       </div>
       <div class="flex flex-wrap w-full px-3 pb-3">
-        <textarea class="focus:outline-none placeholder='Enter your message here' w-full rounded-lg h-44 min-h-[7rem] bg-[#E8EEFA] max-h-56"></textarea>
+        <textarea class="focus:outline-none px-1 w-full rounded-lg h-44 min-h-[7rem] bg-[#E8EEFA] dark:bg-[#171A20] max-h-56" placeholder='Enter your message here'></textarea>
 
       </div>
     </div>
