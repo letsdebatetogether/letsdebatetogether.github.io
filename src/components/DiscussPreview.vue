@@ -5,7 +5,7 @@ import Label from './Label.vue'
 <template>
     <div class="flex flex-col pb-1">
         <div class="flex flex-row">
-            <div class="hidden sm:flex">
+            <div class="hidden pt-1.5 sm:flex">
                 <Label/>
             </div>
             <div class="flex flex-col sm:pl-3 sm:pr-5">

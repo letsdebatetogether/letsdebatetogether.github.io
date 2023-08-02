@@ -1,8 +1,8 @@
 <template>
     <header class="flex w-full bg-[#CFD1E1]">
         <nav class="container flex w-full py-2 sm:flex-row">
-            <div class="flex w-full pl-2 max-w-[10rem] md:pl-4 md:max-w-[15rem]">
-                <p class="px-4 truncate ">GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOD</p>
+            <div class="flex w-full pl-2 max-w-[12rem] md:pl-4 md:max-w-[18rem]">
+                <p class="px-4 truncate ">Let's Debate Together</p>
                 <button class="flex rounded-md bg-[#B2B7D8]"> <p class="mx-1">TOPICS</p> </button>
             </div>
 
