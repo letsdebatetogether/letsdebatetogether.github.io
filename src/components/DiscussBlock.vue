@@ -6,7 +6,7 @@
 
 
     <div class="flex w-full flex-col">
-      <div class="flex flex-row px-2 py-1 w-full gap-2 rounded-t-lg whitespace-nowrap bg-[#c5dae8]">
+      <div class="flex flex-row px-2 py-1 w-full gap-2 rounded-t-lg whitespace-nowrap bg-[#c5dae8] dark:bg-[#0A0B0D]">
         <div class="flex w-full gap-2 ">
           <i class="fa-regular fa-user text-xl"></i>
           <p class="">Boby</p>
@@ -21,7 +21,7 @@
           <i class="fa-solid fa-ellipsis-vertical px-2 text-xl"></i>
         </div>
       </div>
-      <div class="flex bg-[#e1e7f2] rounded-b-lg">
+      <div class="flex bg-[#e1e7f2] dark:bg-[#1B1D1F] rounded-b-lg">
         <div class="text-sm px-2">
           <div>Hello</div>
           <div>Ideally, a good test should be realistic, unambiguous, luckless, and easy to understand. Showing fairness

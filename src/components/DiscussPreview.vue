@@ -37,7 +37,7 @@ import Label from './Label.vue'
             </div>
         </div>
         <div class="w-full pt-1">
-                <hr class="h-[2px] bg-[#0D0E1A] w-full">
+                <hr class="h-[2px] bg-black_font dark:bg-white_font w-full">
             </div>
     </div>
 </template>
