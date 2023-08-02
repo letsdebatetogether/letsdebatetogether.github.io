@@ -9,7 +9,7 @@
         <p>Answer</p>
       </div>
       <div class="flex flex-wrap w-full px-3 pb-3">
-        <textarea class="focus:outline-none placeholder='Enter your message here' w-full rounded-lg h-44 min-h-[7rem] bg-[#E8EEFA] dark:bg-[#171A20] max-h-56"></textarea>
+        <textarea class="focus:outline-none px-1 w-full rounded-lg h-44 min-h-[7rem] bg-[#E8EEFA] dark:bg-[#171A20] max-h-56" placeholder='Enter your message here'></textarea>
 
       </div>
     </div>
