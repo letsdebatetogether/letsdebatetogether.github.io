@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="flex bg-[#e1e7f2] dark:bg-[#1B1D1F] rounded-b-lg">
-        <div class="text-sm px-2">
+        <div class="text-sm px-2 py-1">
           <div>Hello</div>
           <div>Ideally, a good test should be realistic, unambiguous, luckless, and easy to understand. Showing fairness
             is
