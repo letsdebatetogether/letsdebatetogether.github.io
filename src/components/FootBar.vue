@@ -4,7 +4,7 @@
 
 <template>
   <div class="w-full">
-    <hr class="h-[2px] bg-white_font dark:bg-white_font w-full">
+    <hr class="h-[3px] bg-white_font dark:bg-white_font w-full">
 
   <div class="pb-5 pt-1 text-sm flex flex-row whitespace-nowrap">
     <div class="flex w-full px-2">
