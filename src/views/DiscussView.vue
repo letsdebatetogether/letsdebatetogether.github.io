@@ -9,12 +9,17 @@ import FootBar from "@/components/FootBar.vue";
 </script>
 
 <template>
-  <HotBar/>
-  <main class="flex container w-full bg-[#F7F8FF] dark:bg-[#1e1e1e]">
-    <div class="flex flex-col min-h-screen bg-[#E5E6F1] dark:bg-[#242526] w-full px-2">
+  <HotBar class="min-w-[290px]"/>
+  <main class="flex flex-col container min-w-[290px] h-full w-full bg-[#F7F8FF] dark:bg-[#1e1e1e]">
+    <div class="flex flex-col min-h-screen  bg-[#E5E6F1] dark:bg-[#242526] w-full px-2">
       <ToolBox/>
-      <div class="flex w-full flex-row">
+      <div class="w-full  pt-1">
+        <hr class="h-[2px] bg-[#9D9D9D] w-full">
+      </div>
+
+      <div class="flex flex-row w-full mb-auto mt-2">
         <div class="flex flex-col gap-4 pb-3">
+          <DiscussBlock/>
           <DiscussBlock/>
           <DiscussBlock/>
           <DiscussBlock/>
@@ -23,8 +28,10 @@ import FootBar from "@/components/FootBar.vue";
 
         <SideBar/>
       </div>
-      <AnswerBox class="pt-3"/>
-      <FootBar/>
+      <footer class="flex flex-col">
+        <AnswerBox class="pt-3"/>
+        <FootBar/>
+      </footer>
     </div>
   </main>
 

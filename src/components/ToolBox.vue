@@ -18,9 +18,7 @@
                 </button>
                 
             </div>
-            <div class="w-full  pt-1">
-                <hr class="h-[2px] bg-[#9D9D9D] w-full">
-            </div>
+
     </div>
    
 </template>

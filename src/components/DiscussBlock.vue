@@ -1,4 +1,28 @@
 <script setup>
+import MessageOption from "@/components/MessageOption.vue";
+
+
+</script>
+
+<script>
+
+export default {
+  data() {
+    return {
+      isShowMO: false,
+    };
+  },
+  methods: {
+    showMO() {
+      this.isShowMO = !this.isShowMO;
+    },
+    hidMO() {
+      this.isShowMO = false;
+    },
+  },
+
+}
+
 
 </script>
 
@@ -18,7 +42,11 @@
           <div class="flex items-center">
             <p class="text-xs">Edited 3 hours ago</p>
           </div>
-          <i class="fa-solid fa-ellipsis-vertical px-2 text-xl"></i>
+          <button @click="showMO()">
+            <i class="fa-solid fa-ellipsis-vertical px-2 text-xl"></i>
+          </button>
+          <MessageOption class="mt-7" v-if="isShowMO" @hidden="hidMO()"/>
+
         </div>
       </div>
       <div class="flex bg-[#e1e7f2] dark:bg-[#1B1D1F] rounded-b-lg">
