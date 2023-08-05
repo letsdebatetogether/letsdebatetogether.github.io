@@ -11,6 +11,11 @@ const router = createRouter({
       component: DiscussView
     },
     {
+      path: '/topic',
+      name: 'topic',
+      component: HomeView
+    },
+    {
       path: '/discuss/:name',
       name: 'discuss',
       component: DiscussView
